@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+main {
+    padding: 15px;
+}
+
+#btnLokasi {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #2196f3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btnLokasi:hover {
+    background: #1976d2;
+}
+
+#map {
+    margin-top: 15px;
+    height: 400px;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+#hasil {
+    margin-top: 15px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+}
